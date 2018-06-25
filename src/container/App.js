@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Intro from '../components/Intro/Intro';
+import Introduction from '../components/Introduction/Introduction';
 import Knowhow from '../components/Knowhow/knowhow';
 import Experience from '../components/Experience/Experience';
 import Contact from '../components/Contact/contact';
@@ -13,7 +13,7 @@ class App extends Component {
     const { showDiv } = this.state;
     return (
       <div className="App">
-        <Intro />
+        <Introduction />
         <Knowhow />
         { showDiv && (
         <Experience  />

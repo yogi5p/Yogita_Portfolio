@@ -2,8 +2,8 @@ import React from "react";
 
 const Contact = () => {
   return (
-    <header id="Contact" className="tc pv5 bg-dark-green ph4">
-      <h1 className="f3 f2-m code f1-l fw2 black-90 mv3">Let's Cooprate!</h1>
+    <header id="Contact" className="tc pv5 bg-blue ph4">
+      <h1 className="f3 f2-m code f1-l fw2 black-90 mv3">Let's Work Together!</h1>
       <h2 className="f5 f4-m f3-l code fw2 black pb5 mt0 measure center lh-copy">
         I'm currently looking to code with new people and work on new projects!
         Shoot me an email to start a conversation!
@@ -13,27 +13,28 @@ const Contact = () => {
           className="f3 grow no-underline br-pill code ba bw1 ph3 pv2 mb2 dib black"
           href="mailto:nitinyogi@msn.com"
         >
-          Let's Go!
+          Let's do it!
         </a>{" "}
         <br />
       </div>
       <div>
         <a
           className="f3 grow no-underline br-pill code ba bw1 ph3 pv2 mb2 dib black"
-          href="https://drive.google.com/file/d/1H7n5OetIx1Le0OyI2IOMsU32Hcg3v148/view?usp=sharing
-"
+          href="https://drive.google.com/file/d/1nR9L4iMWmwVPaYwy8ImykGc9mzBnVnIW/view?usp=sharing"
+          target="_blank"
         >
           View/Download Resume
         </a>
       </div>
       <footer className="pt6 ph5-ns tc">
         <p className="f6 f2-m f6-l code fw2 black-90 mv3">
-          Crafted by Yogi, inpsired by others. 2018
+          Created by Yogi, inpsired by everyone. 2018
         </p>
         <a
-          className="link near-black hover-silver dib h2 w2 mr3"
+          className="link near-white hover-silver dib h2 w2 mr3"
           href="https://www.linkedin.com/in/yogita-patil-80b1b722/"
           title="LinkedIn"
+          target="_blank"
         >
           <svg
             fill="currentColor"
@@ -45,15 +46,16 @@ const Contact = () => {
             stroke-miterlimit="1.414"
           >
             <path
-              d="M15.117 0H.883C.395 0 0 .395 0 .883v14.234c0 .488.395.883.883.883h7.663V9.804H6.46V7.39h2.086V5.607c0-2.066 1.262-3.19 3.106-3.19.883 0 1.642.064 1.863.094v2.16h-1.28c-1 0-1.195.476-1.195 1.176v1.54h2.39l-.31 2.416h-2.08V16h4.077c.488 0 .883-.395.883-.883V.883C16 .395 15.605 0 15.117 0"
+              d="M13.632 13.635h-2.37V9.922c0-.886-.018-2.025-1.234-2.025-1.235 0-1.424.964-1.424 1.96v3.778h-2.37V6H8.51V7.04h.03c.318-.6 1.092-1.233 2.247-1.233 2.4 0 2.845 1.58 2.845 3.637v4.188zM3.558 4.955c-.762 0-1.376-.617-1.376-1.377 0-.758.614-1.375 1.376-1.375.76 0 1.376.617 1.376 1.375 0 .76-.617 1.377-1.376 1.377zm1.188 8.68H2.37V6h2.376v7.635zM14.816 0H1.18C.528 0 0 .516 0 1.153v13.694C0 15.484.528 16 1.18 16h13.635c.652 0 1.185-.516 1.185-1.153V1.153C16 .516 15.467 0 14.815 0z"
               fill-rule="nonzero"
             />
           </svg>
         </a>
         <a
-          className="link near-black hover-silver dib h2 w2 mr3"
+          className="link near-white hover-silver dib h2 w2 mr3"
           href="https://github.com/yogi5p"
           title="GitHub"
+          target="_blank"
         >
           <svg
             fill="currentColor"
@@ -68,9 +70,10 @@ const Contact = () => {
           </svg>
         </a>
         <a
-          className="link hover-silver near-black dib h2 w2 mr3"
+          className="link hover-silver near-white dib h2 w2 mr3"
           href="https://stackoverflow.com/users/6476553/yogita-patil"
           title="Stack Overflow"
+          target="_blank"
         >
           <svg
             fill="currentColor"
